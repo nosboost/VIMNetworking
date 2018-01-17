@@ -12,7 +12,7 @@ typedef NS_ENUM(NSInteger, VIMErrorCode)
 {
     VIMErrorCodeUploadStorageQuotaExceeded = 4101,
     VIMErrorCodeUploadDailyQuotaExceeded = 4102,
-        
+    
     VIMErrorCodeInvalidRequestInput = 2204, // root error code for all invalid parameters errors below
     
     VIMErrorCodeVideoPasswordIncorrect = 2222,
