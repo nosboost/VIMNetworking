@@ -1,0 +1,14 @@
+platform :ios
+
+use_frameworks!
+
+pod 'AFNetworking', '2.6.3'
+
+target 'VIMNetworkingSDK_Example' do
+  pod 'VIMNetworkingSDK', :path => '../'
+
+  target 'VIMNetworkingSDK_Tests' do
+    inherit! :search_paths
+
+  end
+end
